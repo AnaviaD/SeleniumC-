@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
 
 namespace SeleniumProjects
 {
@@ -6,8 +8,7 @@ namespace SeleniumProjects
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Hello World!");
+            IWebDriver dirver = new ChromeDriver();
         }
     }
 }
