@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ObWhkcrdl7JWGlgBvotnv969CY8XU0qSQTTKy+8oMrtZ7iHIr0TtFpBJgTv14YJv1uwFoxcj8cLqAA2zKsQ3tg==",
+  "dgSpecHash": "apqnriTQxZnZ/J/c81HDYA77MRz54fDtQGqboYxvMDXVD97I9/W8Lz+M2VZ2ysqnSMVbLfBgtaf2gedwRvsKSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\anavi\\Desktop\\Projects\\PracticasSelenium\\SeleniumC-\\SeleniumProjects\\SeleniumProjects\\SeleniumProjects.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anavi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\anavi\\.nuget\\packages\\selenium.support\\4.4.0\\selenium.support.4.4.0.nupkg.sha512",
+    "C:\\Users\\anavi\\.nuget\\packages\\selenium.webdriver\\4.4.0\\selenium.webdriver.4.4.0.nupkg.sha512",
+    "C:\\Users\\anavi\\.nuget\\packages\\selenium.webdriver.chromedriver\\100.0.4896.6000\\selenium.webdriver.chromedriver.100.0.4896.6000.nupkg.sha512"
+  ],
   "logs": []
 }
