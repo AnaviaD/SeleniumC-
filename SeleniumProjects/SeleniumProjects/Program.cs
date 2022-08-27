@@ -8,7 +8,11 @@ namespace SeleniumProjects
     {
         static void Main(string[] args)
         {
-            IWebDriver dirver = new ChromeDriver();
+            IWebDriver chrDriv = new ChromeDriver();
+            chrDriv.Navigate().GoToUrl("https://www.google.com.mx/?hl=es-419");
+
+            var inputSearch = chrDriv.FindElement(By.Name("q"));
+            inputSearch.SendKeys("Test text");
         }
     }
 }
