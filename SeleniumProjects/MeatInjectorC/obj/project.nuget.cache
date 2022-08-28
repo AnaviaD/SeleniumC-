@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ogqbxj+bf8x3kjUEC+cXU2ZzZ5hLoAy6WyTViVFDlZ4G0m9sWfBAYimVmSJOnEkZLOPwaY+EBACsBrp16UxRAg==",
+  "dgSpecHash": "eqW60LnrW4HJpZW4c7p4Owg9r56+WC8KDEZ0zu6SM5iFG1UEf3GT9xXxgG6wCOMZBnJDgRthg0s2CaZJ57O7gg==",
   "success": true,
   "projectFilePath": "C:\\Users\\anavi\\Desktop\\Projects\\PracticasSelenium\\SeleniumC-\\SeleniumProjects\\MeatInjectorC\\MeatInjectorC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\anavi\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\anavi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\anavi\\.nuget\\packages\\selenium.webdriver\\4.4.0\\selenium.webdriver.4.4.0.nupkg.sha512",
     "C:\\Users\\anavi\\.nuget\\packages\\selenium.webdriver.chromedriver\\104.0.5112.7900\\selenium.webdriver.chromedriver.104.0.5112.7900.nupkg.sha512"

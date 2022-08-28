@@ -17,3 +17,4 @@ C:\Users\anavi\Desktop\Projects\PracticasSelenium\SeleniumC-\SeleniumProjects\Me
 C:\Users\anavi\Desktop\Projects\PracticasSelenium\SeleniumC-\SeleniumProjects\MeatInjectorC\obj\Debug\net5.0\MeatInjectorC.pdb
 C:\Users\anavi\Desktop\Projects\PracticasSelenium\SeleniumC-\SeleniumProjects\MeatInjectorC\obj\Debug\net5.0\MeatInjectorC.genruntimeconfig.cache
 C:\Users\anavi\Desktop\Projects\PracticasSelenium\SeleniumC-\SeleniumProjects\MeatInjectorC\obj\Debug\net5.0\ref\MeatInjectorC.dll
+C:\Users\anavi\Desktop\Projects\PracticasSelenium\SeleniumC-\SeleniumProjects\MeatInjectorC\bin\Debug\net5.0\SeleniumExtras.WaitHelpers.dll
