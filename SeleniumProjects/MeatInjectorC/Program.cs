@@ -11,13 +11,18 @@ namespace MeatInjectorC
 
         static void Main(string[] args)
         {
+
+            //Create a instance of ChromeOptions class
+            ChromeOptions options = new ChromeOptions();
+
+            //Add chrome switch to disable notification - "**--disable-notifications**"
+            options.AddArguments("--disable-notifications");
             
 
-            IWebDriver MeatObject = new ChromeDriver();
+            IWebDriver MeatObject = new ChromeDriver(options);
             MeatObject.Navigate().GoToUrl("https://tinder.com/");
 
 
-            
 
             //Dando click al boton para hacer login
             FunctionsNMethods helperMethod = new FunctionsNMethods(MeatObject);
