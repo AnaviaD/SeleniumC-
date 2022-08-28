@@ -11,6 +11,9 @@ namespace MeatInjectorC
             IWebDriver MeatObject = new ChromeDriver();
             MeatObject.Navigate().GoToUrl("https://tinder.com/");
 
+            FunctionsNMethods helperMethod = new FunctionsNMethods();
+            helperMethod.LoginFunction(MeatObject);
         }
+        
     }
 }
