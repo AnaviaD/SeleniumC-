@@ -92,7 +92,7 @@ namespace MeatInjectorC
             w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
             likeBtn.Click();
 
-            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button")));
+            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
             likeBtn.Click();
 
             //*[@id="q-1484853966"]/main/div/div/div/div[3]/button[1]
