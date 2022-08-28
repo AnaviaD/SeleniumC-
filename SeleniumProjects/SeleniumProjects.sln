@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumProjects", "SeleniumProjects\SeleniumProjects.csproj", "{46E370AC-A1CC-431D-AAC2-0AEE4266DDCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumProjects", "SeleniumProjects\SeleniumProjects.csproj", "{46E370AC-A1CC-431D-AAC2-0AEE4266DDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeatInjectorC", "MeatInjectorC\MeatInjectorC.csproj", "{AAF991C0-0AEA-4ED4-A034-3FF187AE9BE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{46E370AC-A1CC-431D-AAC2-0AEE4266DDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E370AC-A1CC-431D-AAC2-0AEE4266DDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E370AC-A1CC-431D-AAC2-0AEE4266DDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF991C0-0AEA-4ED4-A034-3FF187AE9BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF991C0-0AEA-4ED4-A034-3FF187AE9BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF991C0-0AEA-4ED4-A034-3FF187AE9BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF991C0-0AEA-4ED4-A034-3FF187AE9BE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
