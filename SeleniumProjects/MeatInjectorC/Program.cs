@@ -35,6 +35,12 @@ namespace MeatInjectorC
             helperMethod.loginFaceWindow(MeatObject);
 
 
+            while (true)
+            {
+                helperMethod.likeLoop(MeatObject);
+            }
+
+
         }
 
     }
