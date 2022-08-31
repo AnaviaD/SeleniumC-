@@ -100,7 +100,7 @@ namespace MeatInjectorC
         }
 
 
-        public void likeLoop(IWebDriver MeatObject)
+        public void firstLike(IWebDriver MeatObject)
         {
             try
             {
@@ -112,12 +112,14 @@ namespace MeatInjectorC
             {
                 Console.WriteLine(ex.Message);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
+        }
 
-
+        public void likeLoop(IWebDriver MeatObject)
+        {
             try
             {
                 w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
@@ -133,7 +135,34 @@ namespace MeatInjectorC
                 Console.WriteLine(ex.Message);
             }
 
+        }
 
+        public void superLikeNoTnxBtn(IWebDriver MeatObject)
+        {
+            try
+            {
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1484853966\"]/main/div/button[2]")));
+                IWebElement ntxSuperLike = MeatObject.FindElement(By.XPath("//*[@id=\"q-1484853966\"]/main/div/button[2]"));
+                ntxSuperLike.Click();
+            }
+            catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        public void noInstalarNoseQueCosaBtn(IWebDriver MeatObject)
+        {
+            try
+            {
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1484853966\"]/main/div/div[2]/button[2]")));
+                IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"q-1484853966\"]/main/div/div[2]/button[2]"));
+                noInstallIdkw.Click();
+            }
+            catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
     }
