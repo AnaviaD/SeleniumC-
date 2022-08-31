@@ -128,6 +128,10 @@ namespace MeatInjectorC
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                superLikeNoTnxBtn(MeatObject);
+                noInstalarNoseQueCosaBtn(MeatObject);
+                platinumOfferBtn(MeatObject);
+                likeDissmisBtn(MeatObject);
             }
 
         }
@@ -141,6 +145,10 @@ namespace MeatInjectorC
                 ntxSuperLike.Click();
             }
             catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -158,6 +166,10 @@ namespace MeatInjectorC
             {
                 Console.WriteLine(ex.Message);
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public void platinumOfferBtn(IWebDriver MeatObject)
@@ -169,6 +181,10 @@ namespace MeatInjectorC
                 platinumBtn.Click();
             }
             catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -186,6 +202,10 @@ namespace MeatInjectorC
             {
                 Console.WriteLine(ex.Message);
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         public void boostNoTnxBtn(IWebDriver MeatObject)
@@ -197,6 +217,10 @@ namespace MeatInjectorC
                 boostbtn.Click();
             }
             catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }

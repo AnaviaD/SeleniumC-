@@ -35,6 +35,9 @@ namespace MeatInjectorC
             //Login on Face
             helperMethod.loginFaceWindow(MeatObject);
 
+            int milms = 10000;
+            Thread.Sleep(milms);
+
             helperMethod.firstLike(MeatObject);
 
 
