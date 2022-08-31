@@ -184,6 +184,20 @@ namespace MeatInjectorC
             }
         }
 
+        public void boostNoTnxBtn(IWebDriver MeatObject)
+        {
+            try
+            {
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1484853966\"]/main/div/div[2]/button[3]")));
+                IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"q-1484853966\"]/main/div/div[2]/button[3]"));
+                noInstallIdkw.Click();
+            }
+            catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
     }
 
 }
