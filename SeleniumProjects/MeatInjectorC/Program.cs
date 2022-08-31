@@ -35,6 +35,8 @@ namespace MeatInjectorC
             //Login on Face
             helperMethod.loginFaceWindow(MeatObject);
 
+            helperMethod.firstLike(MeatObject);
+
 
             while (true)
             {

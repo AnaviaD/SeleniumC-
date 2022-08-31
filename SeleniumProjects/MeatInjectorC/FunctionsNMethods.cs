@@ -31,7 +31,7 @@ namespace MeatInjectorC
         public void BtnClickLoginFunction(IWebDriver MeatObject)
         {
             //Adding a helper thing wait of webdriver
-            WebDriverWait w = new(MeatObject, TimeSpan.FromSeconds(1));
+            WebDriverWait w = new(MeatObject, TimeSpan.FromSeconds(4));
             this.w = w;
 
             //IWebElement btnLoginFace = MeatObject.FindElement(By.XPath("//*[@id=\"q - 1484853966\"]/main/div/div[1]/div/div/div[3]/span/div[2]/button"));
@@ -120,6 +120,10 @@ namespace MeatInjectorC
             catch (NoSuchElementException ex)
             {
                 Console.WriteLine(ex.Message);
+                superLikeNoTnxBtn(MeatObject);
+                noInstalarNoseQueCosaBtn(MeatObject);
+                platinumOfferBtn(MeatObject);
+                likeDissmisBtn(MeatObject);
             }
             catch (Exception ex)
             {
