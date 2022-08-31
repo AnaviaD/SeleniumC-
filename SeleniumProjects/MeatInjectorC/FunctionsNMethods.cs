@@ -170,6 +170,20 @@ namespace MeatInjectorC
             }
         }
 
+        public void likeDissmisBtn(IWebDriver MeatObject)
+        {
+            try
+            {
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q573898311\"]/main/div/div[1]/div/div[4]/button")));
+                IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"q573898311\"]/main/div/div[1]/div/div[4]/button"));
+                noInstallIdkw.Click();
+            }
+            catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
     }
 
 }
