@@ -38,7 +38,7 @@ namespace MeatInjectorC
 
             while (true)
             {
-                int milliseconds = 1000;
+                int milliseconds = 100;
                 Thread.Sleep(milliseconds);
                 helperMethod.likeLoop(MeatObject);
             }
