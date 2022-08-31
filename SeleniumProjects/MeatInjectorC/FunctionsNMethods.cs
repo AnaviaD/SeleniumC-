@@ -31,7 +31,7 @@ namespace MeatInjectorC
         public void BtnClickLoginFunction(IWebDriver MeatObject)
         {
             //Adding a helper thing wait of webdriver
-            WebDriverWait w = new(MeatObject, TimeSpan.FromSeconds(40));
+            WebDriverWait w = new(MeatObject, TimeSpan.FromSeconds(1));
             this.w = w;
 
             //IWebElement btnLoginFace = MeatObject.FindElement(By.XPath("//*[@id=\"q - 1484853966\"]/main/div/div[1]/div/div/div[3]/span/div[2]/button"));
@@ -102,12 +102,40 @@ namespace MeatInjectorC
 
         public void likeLoop(IWebDriver MeatObject)
         {
-            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button")));
-            var likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button"));
-            likeBtn.Click();
-            int milliseconds = 2000;
-            Thread.Sleep(milliseconds);
+            try
+            {
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button")));
+                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button"));
+                likeBtn.Click();
+            }
+            catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+
+            try
+            {
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
+                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button"));
+                likeBtn.Click();
+            }
+            catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+
         }
 
     }
+
 }

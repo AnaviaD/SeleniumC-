@@ -2,6 +2,7 @@
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.Threading;
 
 namespace MeatInjectorC
 {
@@ -37,6 +38,8 @@ namespace MeatInjectorC
 
             while (true)
             {
+                int milliseconds = 1000;
+                Thread.Sleep(milliseconds);
                 helperMethod.likeLoop(MeatObject);
             }
 
