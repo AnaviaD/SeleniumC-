@@ -78,10 +78,6 @@ namespace MeatInjectorC
             //notificaciones.Click();
 
 
-            //w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button")));
-            //var likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button"));
-            //likeBtn.Click();
-
             w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[2]/div/div/div[1]/div[1]/button")));
             var aceptarCondiciones = MeatObject.FindElement(By.XPath("//*[@id=\"q243527110\"]/div/div[2]/div/div/div[1]/div[1]/button"));
             aceptarCondiciones.Click();
@@ -90,12 +86,7 @@ namespace MeatInjectorC
             //notificationAlert.Dismiss();
 
 
-            //w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
-            //likeBtn.Click();
-
-            //w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
-            //likeBtn.Click();
-
+            
             //*[@id="q-1484853966"]/main/div/div/div/div[3]/button[1]
         }
 
@@ -157,6 +148,20 @@ namespace MeatInjectorC
             {
                 w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1484853966\"]/main/div/div[2]/button[2]")));
                 IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"q-1484853966\"]/main/div/div[2]/button[2]"));
+                noInstallIdkw.Click();
+            }
+            catch (NoSuchElementException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        public void platinumOfferBtn(IWebDriver MeatObject)
+        {
+            try
+            {
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1484853966\"]/main/div/button[2]")));
+                IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"q-1484853966\"]/main/div/button[2]"));
                 noInstallIdkw.Click();
             }
             catch (NoSuchElementException ex)
