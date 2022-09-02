@@ -78,8 +78,8 @@ namespace MeatInjectorC
             //notificaciones.Click();
 
 
-            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[2]/div/div/div[1]/div[1]/button")));
-            var aceptarCondiciones = MeatObject.FindElement(By.XPath("//*[@id=\"q243527110\"]/div/div[2]/div/div/div[1]/div[1]/button"));
+            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"c-1560500889\"]/div/div[2]/div/div/div[1]/div[1]/button")));
+            var aceptarCondiciones = MeatObject.FindElement(By.XPath("//*[@id=\"c-1560500889\"]/div/div[2]/div/div/div[1]/div[1]/button"));
             aceptarCondiciones.Click();
 
             //IAlert notificationAlert = MeatObject.SwitchTo().Alert();
