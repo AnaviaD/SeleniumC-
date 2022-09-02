@@ -95,8 +95,8 @@ namespace MeatInjectorC
         {
             try
             {
-                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button")));
-                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button"));
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"c-1560500889\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button")));
+                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"c-1560500889\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button"));
                 likeBtn.Click();
             }
             catch (NoSuchElementException ex)
@@ -113,8 +113,8 @@ namespace MeatInjectorC
         {
             try
             {
-                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
-                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q243527110\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button"));
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"c-1560500889\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
+                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"c-1560500889\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button"));
                 likeBtn.Click();
             }
             catch (NoSuchElementException ex)
@@ -140,8 +140,8 @@ namespace MeatInjectorC
         {
             try
             {
-                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1484853966\"]/main/div/button[2]")));
-                IWebElement ntxSuperLike = MeatObject.FindElement(By.XPath("//*[@id=\"q-1484853966\"]/main/div/button[2]"));
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"c1006085331\"]/main/div/button[2]")));
+                IWebElement ntxSuperLike = MeatObject.FindElement(By.XPath("//*[@id=\"c1006085331\"]/main/div/button[2]"));
                 ntxSuperLike.Click();
             }
             catch (NoSuchElementException ex)
@@ -158,8 +158,8 @@ namespace MeatInjectorC
         {
             try
             {
-                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1484853966\"]/main/div/div[2]/button[2]")));
-                IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"q-1484853966\"]/main/div/div[2]/button[2]"));
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"c1006085331\"]/main/div/div[2]/button[2]")));
+                IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"c1006085331\"]/main/div/div[2]/button[2]"));
                 noInstallIdkw.Click();
             }
             catch (NoSuchElementException ex)
@@ -176,8 +176,8 @@ namespace MeatInjectorC
         {
             try
             {
-                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1484853966\"]/main/div/button[2]")));
-                IWebElement platinumBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q-1484853966\"]/main/div/button[2]"));
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"c1006085331\"]/main/div/button[2]")));
+                IWebElement platinumBtn = MeatObject.FindElement(By.XPath("//*[@id=\"c1006085331\"]/main/div/button[2]"));
                 platinumBtn.Click();
             }
             catch (NoSuchElementException ex)
