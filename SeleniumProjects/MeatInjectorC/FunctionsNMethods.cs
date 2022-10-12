@@ -24,7 +24,7 @@ namespace MeatInjectorC
 
         public void LoginFunction(IWebDriver MeatObject)
         {
-            var loginTB = MeatObject.FindElement(By.XPath("//*[@id=\"q-1470728188\"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/a"));
+            var loginTB = MeatObject.FindElement(By.XPath("//*[@id=\"q1623655810\"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/a"));
             loginTB.Click();
         }
 
@@ -36,8 +36,8 @@ namespace MeatInjectorC
 
             //IWebElement btnLoginFace = MeatObject.FindElement(By.XPath("//*[@id=\"q - 1484853966\"]/main/div/div[1]/div/div/div[3]/span/div[2]/button"));
 
-            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q1095858032\"]/main/div/div[1]/div/div/div[3]/span/div[2]/button")));
-            var btnLoginTB = MeatObject.FindElement(By.XPath("//*[@id=\"q1095858032\"]/main/div/div[1]/div/div/div[3]/span/div[2]/button"));
+            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-104725266\"]/main/div/div[1]/div/div/div[3]/span/div[2]/button")));
+            var btnLoginTB = MeatObject.FindElement(By.XPath("//*[@id=\"q-104725266\"]/main/div/div[1]/div/div/div[3]/span/div[2]/button"));
             btnLoginTB.Click();
         }
 
@@ -78,8 +78,8 @@ namespace MeatInjectorC
             //notificaciones.Click();
 
 
-            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1470728188\"]/div/div[2]/div/div/div[1]/div[1]/button")));
-            var aceptarCondiciones = MeatObject.FindElement(By.XPath("//*[@id=\"q-1470728188\"]/div/div[2]/div/div/div[1]/div[1]/button"));
+            w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q1623655810\"]/div/div[2]/div/div/div[1]/div[1]/button")));
+            var aceptarCondiciones = MeatObject.FindElement(By.XPath("//*[@id=\"q1623655810\"]/div/div[2]/div/div/div[1]/div[1]/button"));
             aceptarCondiciones.Click();
 
             //IAlert notificationAlert = MeatObject.SwitchTo().Alert();
@@ -95,8 +95,8 @@ namespace MeatInjectorC
         {
             try
             {
-                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"c-1560500889\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button")));
-                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"c-1560500889\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button"));
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q1623655810\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button")));
+                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q1623655810\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[4]/div/div[4]/button"));
                 likeBtn.Click();
             }
             catch (NoSuchElementException ex)
@@ -113,8 +113,8 @@ namespace MeatInjectorC
         {
             try
             {
-                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-1470728188\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
-                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q-1470728188\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button"));
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q1623655810\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button")));
+                IWebElement likeBtn = MeatObject.FindElement(By.XPath("//*[@id=\"q1623655810\"]/div/div[1]/div/main/div[1]/div/div/div[1]/div[1]/div/div[5]/div/div[4]/button"));
                 likeBtn.Click();
             }
             catch (NoSuchElementException ex)
@@ -158,8 +158,8 @@ namespace MeatInjectorC
         {
             try
             {
-                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q1095858032\"]/main/div/div[2]/button[2]")));
-                IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"q1095858032\"]/main/div/div[2]/button[2]"));
+                w.Until(ExpectedConditions.ElementExists(By.XPath("//*[@id=\"q-104725266\"]/main/div/div[2]/button[2]")));
+                IWebElement noInstallIdkw = MeatObject.FindElement(By.XPath("//*[@id=\"q-104725266\"]/main/div/div[2]/button[2]"));
                 noInstallIdkw.Click();
             }
             catch (NoSuchElementException ex)
